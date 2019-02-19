@@ -1,0 +1,21 @@
+.pie {
+    width: 100%;
+    height: 170px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0A1E41;
+    color: #1B4E71;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pie h4 {
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.pie a {
+    text-decoration: none;
+    color: #1B4E71;
+}

@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: #1B4E71;
+    background-image: url('../imgs/00-principal.jpg');
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+    align-items: center;
+}
+
+.logoFor {
+    padding-left: 15%;
+    height: 80%;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    grid-column-start: 3;
+}
+
+.nav li a {
+    opacity: 0.8;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li ul {
+    display: none;
+    min-width: 140px;
+    position: fixed;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {
+    width: 150px;
+}
+
+.menuImg {
+    height: 34px;
+}

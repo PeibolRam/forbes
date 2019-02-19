@@ -1,0 +1,17 @@
+.fichas {
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+
+.child {
+    width: 100%;
+    height: 350px;
+}
+
+
+/* #primero {
+    background-image: url("https://source.unsplash.com/random/200x350/?chess");
+} */

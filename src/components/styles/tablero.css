@@ -7,3 +7,12 @@
     background-color: black;
     color: white;
 }
+
+.moreEvents {
+    padding-top: 100px;
+}
+
+.moreEvents:hover {
+    background-color: #3F5666;
+    color: white;
+}

@@ -19,3 +19,9 @@
     text-decoration: none;
     color: #1B4E71;
 }
+
+.enlaces {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

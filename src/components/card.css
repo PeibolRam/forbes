@@ -1,0 +1,11 @@
+.cardTem {
+    width: 25%;
+    height: 350px;
+    border-style: solid;
+    border: 3px;
+    border-color: rgb(0, 0, 0);
+    position: absolute;
+    background-image: none;
+    border-style: solid;
+    float: left;
+}

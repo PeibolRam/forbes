@@ -8,7 +8,8 @@ class Board extends Component {
             <div className="fichas">
                 <Card/>
                 <Card/>
-                
+                <Card/>
+                <Card/>
             </div>
             
         );

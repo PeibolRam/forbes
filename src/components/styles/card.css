@@ -6,6 +6,10 @@
     background-position: center;
 }
 
+.cardTem:hover {
+    transform: scale(1.1);
+}
+
 button {
     color: white;
     background: transparent;

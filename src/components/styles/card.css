@@ -5,11 +5,6 @@
     background-size: cover;
 }
 
-.cardTem:hover {
-    background-color: #3F5666;
-    color: white;
-}
-
 button {
     color: white;
     background: transparent;

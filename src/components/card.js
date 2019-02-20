@@ -5,7 +5,7 @@ class Card extends Component {
     
     render(){
         return(
-            <div className="cardTem" >
+            <div className="cardTem" style={{backgroundImage:`url(${this.props.image})`}}>
                 <h3>{this.props.name}</h3>
                 <h5>FECHA</h5>
                 <h4>{this.props.date}</h4>

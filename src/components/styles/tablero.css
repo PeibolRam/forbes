@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
-    background-color: black;
+    background-color: #071D59;
     color: white;
 }
 
@@ -13,6 +13,6 @@
 }
 
 .moreEvents:hover {
-    background-color: #3F5666;
+    background-color: #0B2E8C;
     color: white;
 }

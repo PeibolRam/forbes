@@ -11,6 +11,13 @@
     margin-block-start: 0px;
 }
 
+.cardTem:hover {
+    background: black;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+}
+
 button {
     color: white;
     background: transparent;
@@ -23,14 +30,9 @@ button:hover {
     color: black;
     background-color: #F4EEEC;
     border: 2px solid #F4EEEC;
+    opacity: 1;
 }
 
-.cartTem--info {
+.cartTemInfo {
     height: 100%;
-    position: relative;
-}
-
-.cardTem--info:hover {
-    background-color: transparent;
-    opacity: 0.0;
 }

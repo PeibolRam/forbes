@@ -18,6 +18,11 @@
     opacity: 0.7;
 }
 
+.cartTemInfo {
+    height: 100%;
+    position: relative;
+}
+
 button {
     color: white;
     background: transparent;
@@ -31,8 +36,4 @@ button:hover {
     background-color: #F4EEEC;
     border: 2px solid #F4EEEC;
     opacity: 1;
-}
-
-.cartTemInfo {
-    height: 100%;
 }

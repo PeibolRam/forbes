@@ -1,51 +1,57 @@
 .header {
     width: 100%;
-    height: 250px;
-    background-color: #1B4E71;
-    background-image: url('../imgs/00-principal.jpg');
-    display: grid;
-    grid-template-columns: 30% 60% 10%;
+    height: 220px;
+    display: flex;
     align-items: center;
     background-size: cover;
     background-position: center;
+    justify-content: space-between;
 }
 
 .logoFor {
-    padding-left: 15%;
+    padding-left: 5%;
     height: 80%;
 }
 
-ul {
-    list-style: none;
+.menuBtn {
+    float: right;
+    padding-right: 100px;
+    cursor: pointer;
 }
 
 .nav {
-    grid-column-start: 3;
+    margin: 0px;
+    padding: 0px;
 }
 
-.nav li a {
-    opacity: 0.8;
-    background-color: #000;
+.navbar li a {
+    background-color: #00000098;
     color: #fff;
     text-decoration: none;
     padding: 10px 12px;
     display: block;
 }
 
-.nav li ul {
-    display: none;
-    min-width: 140px;
-    position: fixed;
+.navbar li a:hover {
+    background-color: #434343;
 }
 
-.nav li:hover>ul {
+.navbar li ul {
+    display: none;
+    position: absolute;
+    width: 150px;
+    right: 100px;
+    list-style: none;
+}
+
+.navbar li:hover>ul {
     display: block;
 }
 
-.nav li ul li {
-    width: 150px;
+.navbar li ul li {
+    position: relative;
 }
 
-.menuImg {
-    height: 34px;
+.navbarChild {
+    background-color: #00000080;
 }

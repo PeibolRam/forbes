@@ -5,6 +5,7 @@
     background-size: cover;
     background-position: center;
     cursor: pointer;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .cardTem h3 {
@@ -28,6 +29,12 @@ button {
     border: 2px solid white;
     width: 100px;
     height: 50px;
+    appearance: none;
+}
+
+button>a {
+    color: #fff;
+    text-decoration: none;
 }
 
 button:hover {
@@ -35,4 +42,12 @@ button:hover {
     background-color: #F4EEEC;
     border: 2px solid #F4EEEC;
     opacity: 1;
+}
+
+button:hover a {
+    color: black;
+}
+
+button:focus {
+    outline: none;
 }

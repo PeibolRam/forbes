@@ -10,7 +10,8 @@
 
 .moreEvents {
     padding-top: 150px;
-    background-color: #0B2E8C;
+    background-color: #071D59;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .moreEvents button {
@@ -18,6 +19,6 @@
 }
 
 .moreEvents:hover {
-    background-color: #071D59;
+    background-color: #0B2E8C;
     color: white;
 }

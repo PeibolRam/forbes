@@ -8,10 +8,6 @@
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-.cardTem h3 {
-    margin-block-start: 0px;
-}
-
 .cardTem:hover {
     background-position: center;
     background-size: cover;
@@ -21,6 +17,7 @@
 .cartTemInfo {
     padding-top: 20%;
     height: 70%;
+    z-index: 2;
 }
 
 button {

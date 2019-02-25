@@ -6,12 +6,12 @@ class Card extends Component {
         return(
             <div className="cardTem" style={{backgroundImage:`url(${this.props.image})`}}>
                 <div className="cartTemInfo">
-                    <h3>{this.props.name}</h3>
+                    <h2>{this.props.name}</h2>
                     <h5>FECHA</h5>
                     <h4>{this.props.date}</h4>
                     <h5>LUGAR</h5>
                     <h4>{this.props.place}</h4>
-                    <button><a href="#">GO THERE</a> </button>
+                    <button><a href={this.props.link}>GO THERE</a> </button>
                 </div>
             </div>
         );

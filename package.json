@@ -27,12 +27,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PeibolRam/postCSS-Platzi.git"
+    "url": "git+https://github.com/PeibolRam/forbes.git"
   },
   "author": "Pablo Ramirez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PeibolRam/postCSS-Platzi/issues"
+    "url": "https://github.com/PeibolRam/forbes.git/issues"
   },
-  "homepage": "https://github.com/PeibolRam/postCSS-Platzi#readme"
+  "homepage": "https://github.com/PeibolRam/forbes.git#readme"
 }

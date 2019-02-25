@@ -11,7 +11,7 @@ class Card extends Component {
                     <h4>{this.props.date}</h4>
                     <h5>LUGAR</h5>
                     <h4>{this.props.place}</h4>
-                    <button><a href={this.props.link}>GO THERE</a> </button>
+                    <button><a href={this.props.link} target="_blank">GO THERE</a> </button>
                 </div>
             </div>
         );

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Navi from './components/nav';
 import Board from './components/tablero';
-import Footer from './components/footer'
 
 import './App.css';
 
@@ -11,7 +10,7 @@ class App extends Component {
       <div className="App">
         <Navi/>
         <Board/>
-        <Footer/>
+        
       </div>
     );
   }

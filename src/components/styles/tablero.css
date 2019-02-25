@@ -3,9 +3,16 @@
     height: 1000px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 45% 45%;
     background-color: white;
     color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 170px;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 
 .moreEvents {
@@ -21,4 +28,22 @@
 .moreEvents:hover {
     background-color: #0B2E8C;
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .fichas {
+        width: 100%;
+        height: 1000px;
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: white;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .footer {
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        font-size: 80%;
+    }
 }

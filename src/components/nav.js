@@ -14,18 +14,18 @@ class Navi extends Component{
                 <img src={logo} alt="" className="logoFor"/>
                 <div className="nav">
                     <ul className="navbar">
-                        <li><img src={menuImg} alt="" className="menuBtn"/>
+                        <li><img src={menuImg} className="menuBtn"/>
                         <ul>
-                            <li className="itemIni"><img src={logo} alt="" /></li>
-                            <li><a href="#" >FRANQUICIAS</a></li>
-                            <li><a href="#" >30 PROMESAS</a></li>
-                            <li><a href="#" >SALUD</a></li>
-                            <li><a href="#" >MUJERES PODEROSAS</a></li>
-                            <li><a href="#" >FORO NEGOCIOS</a></li>
-                            <li><a href="#" >GAME CHANGERS</a></li>
-                            <li><a href="#" >ENERGIA</a></li>
-                            <li><a href="#" >MÁS EVENTOS</a></li>
-                            <li><a href="#" >CONTACTO</a></li>
+                            <li className="logoMenu"><img src={logo} /></li>
+                            <li><a href="https://foroforbes.com/__old/franquicias/" target="_blank">FRANQUICIAS</a></li>
+                            <li><a href="https://foroforbes.com/30-promesas-2019/" target="_blank">30 PROMESAS</a></li>
+                            <li><a href="https://foroforbes.com/__old/2018/index.html" target="_blank">SALUD</a></li>
+                            <li><a href="https://foroforbes.com/__old/2018/index.html" target="_blank">MUJERES PODEROSAS</a></li>
+                            <li><a href="https://foroforbes.com/__old/foro-forbes/2018/" target="_blank">FORO NEGOCIOS</a></li>
+                            <li><a href="https://foroforbes.com/__old/2018/pr%C3%B3ximamente.html" target="_blank">GAME CHANGERS</a></li>
+                            <li><a href="https://foroforbes.com/energias-2018/" target="_blank">ENERGIA</a></li>
+                            <li><a href="https://foroforbes.com/__old/2018/pr%C3%B3ximamente.html" target="_blank">MÁS EVENTOS</a></li>
+                            <li><a href="https://foroforbes.com/__old/2018/contacto.html" target="_blank">CONTACTO</a></li>
                         </ul>
                         </li>
                     </ul>

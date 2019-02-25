@@ -20,24 +20,29 @@
     z-index: 2;
 }
 
+.cartTemInfo h2 {
+    margin-bottom: 30px;
+}
+
 button {
     color: white;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid #F4EEEC;
     width: 100px;
     height: 50px;
     appearance: none;
+    cursor: pointer;
 }
 
 button>a {
     color: #fff;
     text-decoration: none;
+    margin-top: 30px;
 }
 
 button:hover {
     color: black;
     background-color: #F4EEEC;
-    border: 2px solid #F4EEEC;
     opacity: 1;
 }
 
@@ -47,4 +52,10 @@ button:hover a {
 
 button:focus {
     outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+    button {
+        margin-bottom: 50px;
+    }
 }
